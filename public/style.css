@@ -2,3 +2,29 @@ a.active{
     color: #000000 !important;
     text-decoration: underline !important;
 }
+.searchBar {
+    font-family: Open Sans,sans-serif;
+    width: 100%;
+    padding: 20px 0 20px 40px;
+    border: 1px solid #bdbdbd;
+    color: red;
+    -webkit-transition: all .35s ease-out;
+    -o-transition: all .35s ease-out;
+    transition: all .35s ease-out;
+}
+.searchBar:focus {
+    border: 1px solid red;
+}
+.dropDownList{
+  position: absolute;
+  width: 1170px;
+}
+.row{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.movie-card{
+  position: relative;
+  float: left;
+  margin:10px;
+}
